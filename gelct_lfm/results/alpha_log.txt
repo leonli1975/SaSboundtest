@@ -1,0 +1,4 @@
+trials=100  alphas=[np.float64(0.4), np.float64(0.6), np.float64(0.8), np.float64(1.0), np.float64(1.2), np.float64(1.4), np.float64(1.6), np.float64(1.8), np.float64(2.0)]  GSNR=[0.0, -5.0]
+  GSNR=0.0 done in 501.9 s
+  GSNR=-5.0 done in 501.5 s
+saved: C:\Seafile\项目资料库\10.05 researchspace\gelct_lfm\demos\..\results\alpha.png

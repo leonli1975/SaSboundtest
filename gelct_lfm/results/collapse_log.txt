@@ -1,0 +1,42 @@
+trials=150 alphas=[0.8, 1.0, 1.2, 1.5, 2.0] GSNR=[np.float64(-20.0), np.float64(-15.0), np.float64(-10.0), np.float64(-5.0), np.float64(0.0), np.float64(5.0), np.float64(10.0)] quadrature=real workers=13
+  alpha=0.8: 1050 runs in 144.3 s
+   a=0.8 GSNR= -20.0 | LS  k:      9.31dB med 2.26e+00 fail  97.3% div  76.0% | GELCT k:      9.95dB med 2.52e+00 fail  96.7% div  78.7% | max|r| 4.27e+03 -> max|f[r]| 4.1
+   a=0.8 GSNR= -15.0 | LS  k:      9.63dB med 2.41e+00 fail  99.3% div  78.0% | GELCT k:      6.71dB med 1.70e-02 fail  40.7% div  34.7% | max|r| 6.81e+03 -> max|f[r]| 4.2
+   a=0.8 GSNR= -10.0 | LS  k:      9.38dB med 2.57e+00 fail  97.3% div  79.3% | GELCT k:    -45.70dB med 7.44e-04 fail   0.0% div   0.0% | max|r| 5.44e+03 -> max|f[r]| 4.2
+   a=0.8 GSNR=  -5.0 | LS  k:      9.62dB med 2.38e+00 fail  99.3% div  80.0% | GELCT k:    -55.74dB med 4.95e-04 fail   0.0% div   0.0% | max|r| 5.22e+03 -> max|f[r]| 4.1
+   a=0.8 GSNR=   0.0 | LS  k:     10.21dB med 2.57e+00 fail  96.7% div  82.7% | GELCT k:    -66.61dB med 3.01e-04 fail   0.0% div   0.0% | max|r| 7.53e+03 -> max|f[r]| 4.3
+   a=0.8 GSNR=   5.0 | LS  k:      9.09dB med 2.12e+00 fail  94.7% div  76.0% | GELCT k:    -69.87dB med 2.04e-04 fail   0.0% div   0.0% | max|r| 6.42e+03 -> max|f[r]| 4.2
+   a=0.8 GSNR=  10.0 | LS  k:      9.59dB med 2.51e+00 fail  90.0% div  75.3% | GELCT k:    -72.94dB med 1.66e-04 fail   0.0% div   0.0% | max|r| 5.31e+03 -> max|f[r]| 4.2
+  alpha=1.0: 1050 runs in 140.9 s
+   a=1.0 GSNR= -20.0 | LS  k:      9.68dB med 2.50e+00 fail  98.0% div  78.7% | GELCT k:      9.39dB med 2.51e+00 fail  96.0% div  79.3% | max|r| 9.37e+02 -> max|f[r]| 3.5
+   a=1.0 GSNR= -15.0 | LS  k:     10.07dB med 2.66e+00 fail  99.3% div  80.7% | GELCT k:      3.20dB med 2.34e-03 fail  25.3% div  18.7% | max|r| 8.19e+02 -> max|f[r]| 3.5
+   a=1.0 GSNR= -10.0 | LS  k:     10.15dB med 2.60e+00 fail  99.3% div  80.0% | GELCT k:    -49.39dB med 5.77e-04 fail   0.0% div   0.0% | max|r| 1.08e+03 -> max|f[r]| 3.6
+   a=1.0 GSNR=  -5.0 | LS  k:      9.65dB med 2.31e+00 fail  96.0% div  80.0% | GELCT k:    -64.27dB med 3.72e-04 fail   0.0% div   0.0% | max|r| 9.06e+02 -> max|f[r]| 3.5
+   a=1.0 GSNR=   0.0 | LS  k:      9.34dB med 1.95e+00 fail  86.0% div  70.0% | GELCT k:    -67.35dB med 3.07e-04 fail   0.0% div   0.0% | max|r| 8.86e+02 -> max|f[r]| 3.5
+   a=1.0 GSNR=   5.0 | LS  k:      6.90dB med 5.08e-01 fail  57.3% div  42.7% | GELCT k:    -71.85dB med 1.67e-04 fail   0.0% div   0.0% | max|r| 9.99e+02 -> max|f[r]| 3.5
+   a=1.0 GSNR=  10.0 | LS  k:      1.50dB med 1.52e-02 fail  24.7% div  14.0% | GELCT k:    -74.75dB med 1.38e-04 fail   0.0% div   0.0% | max|r| 1.01e+03 -> max|f[r]| 3.5
+  alpha=1.2: 1050 runs in 140.6 s
+   a=1.2 GSNR= -20.0 | LS  k:      9.79dB med 2.71e+00 fail  98.7% div  81.3% | GELCT k:      8.73dB med 1.91e+00 fail  86.7% div  66.7% | max|r| 2.78e+02 -> max|f[r]| 3.1
+   a=1.2 GSNR= -15.0 | LS  k:     10.15dB med 2.57e+00 fail  99.3% div  83.3% | GELCT k:      1.80dB med 1.79e-03 fail  18.7% div  14.0% | max|r| 2.46e+02 -> max|f[r]| 3.0
+   a=1.2 GSNR= -10.0 | LS  k:      9.09dB med 2.13e+00 fail  97.3% div  76.7% | GELCT k:    -52.50dB med 6.40e-04 fail   0.0% div   0.0% | max|r| 3.08e+02 -> max|f[r]| 3.1
+   a=1.2 GSNR=  -5.0 | LS  k:      9.35dB med 2.10e+00 fail  82.0% div  68.7% | GELCT k:    -64.76dB med 4.13e-04 fail   0.0% div   0.0% | max|r| 2.79e+02 -> max|f[r]| 3.1
+   a=1.2 GSNR=   0.0 | LS  k:      4.11dB med 1.55e-02 fail  35.3% div  27.3% | GELCT k:    -68.42dB med 2.34e-04 fail   0.0% div   0.0% | max|r| 2.97e+02 -> max|f[r]| 3.1
+   a=1.2 GSNR=   5.0 | LS  k:     -4.26dB med 1.47e-03 fail  10.0% div   4.7% | GELCT k:    -72.37dB med 1.80e-04 fail   0.0% div   0.0% | max|r| 2.94e+02 -> max|f[r]| 3.1
+   a=1.2 GSNR=  10.0 | LS  k:    -38.18dB med 6.19e-04 fail   0.0% div   0.0% | GELCT k:    -75.81dB med 1.29e-04 fail   0.0% div   0.0% | max|r| 2.42e+02 -> max|f[r]| 3.0
+  alpha=1.5: 1050 runs in 155.2 s
+   a=1.5 GSNR= -20.0 | LS  k:      9.66dB med 2.41e+00 fail  97.3% div  80.7% | GELCT k:      9.00dB med 1.97e+00 fail  87.3% div  65.3% | max|r| 6.11e+01 -> max|f[r]| 2.5
+   a=1.5 GSNR= -15.0 | LS  k:     10.04dB med 2.57e+00 fail  96.0% div  80.7% | GELCT k:     -2.28dB med 1.55e-03 fail   9.3% div   5.3% | max|r| 6.82e+01 -> max|f[r]| 2.6
+   a=1.5 GSNR= -10.0 | LS  k:      8.76dB med 1.57e+00 fail  68.0% div  57.3% | GELCT k:    -62.10dB med 5.73e-04 fail   0.0% div   0.0% | max|r| 6.88e+01 -> max|f[r]| 2.6
+   a=1.5 GSNR=  -5.0 | LS  k:     -2.91dB med 1.64e-03 fail  12.7% div   7.3% | GELCT k:    -65.29dB med 3.58e-04 fail   0.0% div   0.0% | max|r| 8.12e+01 -> max|f[r]| 2.6
+   a=1.5 GSNR=   0.0 | LS  k:    -39.23dB med 6.21e-04 fail   0.0% div   0.0% | GELCT k:    -69.64dB med 2.35e-04 fail   0.0% div   0.0% | max|r| 6.87e+01 -> max|f[r]| 2.6
+   a=1.5 GSNR=   5.0 | LS  k:    -44.85dB med 3.65e-04 fail   0.0% div   0.0% | GELCT k:    -73.69dB med 1.28e-04 fail   0.0% div   0.0% | max|r| 6.50e+01 -> max|f[r]| 2.5
+   a=1.5 GSNR=  10.0 | LS  k:    -49.39dB med 2.27e-04 fail   0.0% div   0.0% | GELCT k:    -77.72dB med 8.51e-05 fail   0.0% div   0.0% | max|r| 7.28e+01 -> max|f[r]| 2.6
+  alpha=2.0: 1050 runs in 165.5 s
+   a=2.0 GSNR= -20.0 | LS  k:     10.16dB med 2.51e+00 fail  94.7% div  79.3% | GELCT k:      8.96dB med 2.11e+00 fail  84.0% div  67.3% | max|r| 4.83e+00 -> max|f[r]| 1.6
+   a=2.0 GSNR= -15.0 | LS  k:      3.81dB med 2.76e-03 fail  31.3% div  24.0% | GELCT k:     -7.71dB med 1.25e-03 fail   2.0% div   2.0% | max|r| 4.83e+00 -> max|f[r]| 1.6
+   a=2.0 GSNR= -10.0 | LS  k:    -49.82dB med 7.66e-04 fail   0.0% div   0.0% | GELCT k:    -55.13dB med 6.27e-04 fail   0.0% div   0.0% | max|r| 4.83e+00 -> max|f[r]| 1.6
+   a=2.0 GSNR=  -5.0 | LS  k:    -64.36dB med 3.84e-04 fail   0.0% div   0.0% | GELCT k:    -66.09dB med 3.17e-04 fail   0.0% div   0.0% | max|r| 5.03e+00 -> max|f[r]| 1.6
+   a=2.0 GSNR=   0.0 | LS  k:    -69.63dB med 2.11e-04 fail   0.0% div   0.0% | GELCT k:    -70.82dB med 1.84e-04 fail   0.0% div   0.0% | max|r| 5.33e+00 -> max|f[r]| 1.6
+   a=2.0 GSNR=   5.0 | LS  k:    -74.40dB med 1.35e-04 fail   0.0% div   0.0% | GELCT k:    -75.01dB med 1.29e-04 fail   0.0% div   0.0% | max|r| 5.98e+00 -> max|f[r]| 1.7
+   a=2.0 GSNR=  10.0 | LS  k:    -80.48dB med 6.57e-05 fail   0.0% div   0.0% | GELCT k:    -80.35dB med 6.41e-05 fail   0.0% div   0.0% | max|r| 7.23e+00 -> max|f[r]| 1.7
+saved: C:\Seafile\项目资料库\10.05 researchspace\gelct_lfm\experiments\..\results\collapse.png  total 767.4 s

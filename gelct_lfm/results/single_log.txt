@@ -1,0 +1,13 @@
+ridge concentration  STFT = 0.0871   GELCT = 0.1359
+======================================================================
+alpha = 1.5,  GSNR = -5.0 dB,  signal amplitude A = 0.5623
+true      : k =     10000.00   f0 =    1000.00
+estimated : k =     10169.98   f0 =     989.71   (rel.err 1.70e-02, 1.03e-02)
+refined   : k =      9995.12   f0 =    1000.01   (coherent full-window Radon limit; rel.err 4.88e-04)
+rocket angle v_hat = 2.242193 rad   ->  -cot(v)*df/dt = 10169.98
+CRLB std : k >= 5.7582e-06   f0 >= 2.2848e-04   (kappa(1.5) = 0.428097)
+======================================================================
+C:\Seafile\项目资料库\10.05 researchspace\gelct_lfm\demos\demo_single.py:130: UserWarning: Adding colorbar to a different Figure <Figure size 1300x900 with 6 Axes> than <Figure size 1300x460 with 3 Axes> which fig.colorbar is called on.
+  plt.colorbar(im, ax=axs[0])
+saved: C:\Seafile\项目资料库\10.05 researchspace\gelct_lfm\demos\..\results\demo_single_tf.png
+saved: C:\Seafile\项目资料库\10.05 researchspace\gelct_lfm\demos\..\results\demo_single_radon.png

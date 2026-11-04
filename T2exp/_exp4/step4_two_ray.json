@@ -1,0 +1,98 @@
+[
+ {
+  "file": "MTDSP2019_HH_scan.mat",
+  "height_m": 80.0,
+  "range_med_m": 6996.25,
+  "grazing_deg": 0.011434946359345829,
+  "target": "ship",
+  "target_h_m": 10.0,
+  "dR_m": 0.2286939431838485,
+  "dtau_ns": 0.7628408823541801,
+  "fast_beat_hz": 6357.007352951501,
+  "doppler_sep_hz": 0.005124677001343072
+ },
+ {
+  "file": "MTDSP2019_HH_scan.mat",
+  "height_m": 80.0,
+  "range_med_m": 6996.25,
+  "grazing_deg": 0.011434946359345829,
+  "target": "wave",
+  "target_h_m": 1.2534535908207451,
+  "dR_m": 0.028665724428275037,
+  "dtau_ns": 0.09561856432117127,
+  "fast_beat_hz": 796.8213693430939,
+  "doppler_sep_hz": 0.0006423544789129963
+ },
+ {
+  "file": "MTDSP2020_HH_stare.mat",
+  "height_m": 25.0,
+  "range_med_m": 5866.25,
+  "grazing_deg": 0.00426167921155493,
+  "target": "ship",
+  "target_h_m": 10.0,
+  "dR_m": 0.08523332623055614,
+  "dtau_ns": 0.2843077734482438,
+  "fast_beat_hz": 2369.2314454020316,
+  "doppler_sep_hz": 0.002277854737194538
+ },
+ {
+  "file": "MTDSP2020_HH_stare.mat",
+  "height_m": 25.0,
+  "range_med_m": 5866.25,
+  "grazing_deg": 0.00426167921155493,
+  "target": "wave",
+  "target_h_m": 0.7224742275537904,
+  "dR_m": 0.0061578881530261285,
+  "dtau_ns": 0.0205405039009558,
+  "fast_beat_hz": 171.17086584129834,
+  "doppler_sep_hz": 0.00016456913417343665
+ },
+ {
+  "file": "MTDSP2022_HH_stare.mat",
+  "height_m": 80.0,
+  "range_med_m": 4167.0,
+  "grazing_deg": 1.0858085093958554,
+  "target": "ship",
+  "target_h_m": 10.0,
+  "dR_m": 0.3839692824574034,
+  "dtau_ns": 1.2807836628678744,
+  "fast_beat_hz": 4002.4489464621074,
+  "doppler_sep_hz": 0.01444608403042719
+ },
+ {
+  "file": "MTDSP2022_HH_stare.mat",
+  "height_m": 80.0,
+  "range_med_m": 4167.0,
+  "grazing_deg": 1.0858085093958554,
+  "target": "wave",
+  "target_h_m": 0.5,
+  "dR_m": 0.01919846412287017,
+  "dtau_ns": 0.06403918314339373,
+  "fast_beat_hz": 200.1224473231054,
+  "doppler_sep_hz": 0.0007223042015213595
+ },
+ {
+  "file": "MTDSP2025_HH_pure.mat",
+  "height_m": 80.0,
+  "range_med_m": 5125.75,
+  "grazing_deg": 0.8768874947445219,
+  "target": "ship",
+  "target_h_m": 10.0,
+  "dR_m": 0.31214944154513974,
+  "dtau_ns": 1.0412184603561299,
+  "fast_beat_hz": 3248.601596311125,
+  "doppler_sep_hz": 0.009547337977220524
+ },
+ {
+  "file": "MTDSP2025_HH_pure.mat",
+  "height_m": 80.0,
+  "range_med_m": 5125.75,
+  "grazing_deg": 0.8768874947445219,
+  "target": "wave",
+  "target_h_m": 0.5,
+  "dR_m": 0.015607472077256986,
+  "dtau_ns": 0.052060923017806494,
+  "fast_beat_hz": 162.43007981555627,
+  "doppler_sep_hz": 0.0004773668988610263
+ }
+]

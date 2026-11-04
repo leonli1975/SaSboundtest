@@ -1,0 +1,38 @@
+trials=150  alphas=[1.0, 1.5, 2.0]  GSNR=[np.float64(-12.0), np.float64(-10.0), np.float64(-8.0), np.float64(-6.0), np.float64(-4.0), np.float64(-2.0), np.float64(0.0), np.float64(2.0), np.float64(4.0), np.float64(6.0), np.float64(8.0)]  workers=14
+  alpha=1.0: 1650 runs in 974.2 s
+   a=1.0 GSNR= -12.0 | k: radon      7.9dB (med 7.0e-01, hit3  25%) full    -45.3dB (med 9.9e-04, hit3 100%) crlb   -178.5 | f0: radon      7.4 (med 6.2e-01) full    -50.9 crlb   -126.5
+   a=1.0 GSNR= -10.0 | k: radon     -3.7dB (med 1.5e-02, hit3  79%) full    -49.3dB (med 7.7e-04, hit3 100%) crlb   -180.5 | f0: radon     -4.5 (med 9.2e-03) full    -54.7 crlb   -128.5
+   a=1.0 GSNR=  -8.0 | k: radon    -37.6dB (med 3.2e-03, hit3  97%) full    -60.7dB (med 6.0e-04, hit3 100%) crlb   -182.5 | f0: radon    -43.2 (med 3.3e-04) full    -74.0 crlb   -130.5
+   a=1.0 GSNR=  -6.0 | k: radon    -39.5dB (med 1.9e-03, hit3 100%) full    -62.5dB (med 4.8e-04, hit3 100%) crlb   -184.5 | f0: radon    -45.0 (med 2.1e-04) full    -76.0 crlb   -132.5
+   a=1.0 GSNR=  -4.0 | k: radon    -39.8dB (med 1.6e-03, hit3 100%) full    -64.2dB (med 4.1e-04, hit3 100%) crlb   -186.5 | f0: radon    -45.2 (med 1.7e-04) full    -77.8 crlb   -134.5
+   a=1.0 GSNR=  -2.0 | k: radon    -39.8dB (med 1.6e-03, hit3 100%) full    -65.7dB (med 3.3e-04, hit3 100%) crlb   -188.5 | f0: radon    -45.2 (med 1.5e-04) full    -79.5 crlb   -136.5
+   a=1.0 GSNR=   0.0 | k: radon    -40.1dB (med 1.5e-03, hit3 100%) full    -67.3dB (med 2.8e-04, hit3 100%) crlb   -190.5 | f0: radon    -45.5 (med 1.3e-04) full    -81.1 crlb   -138.5
+   a=1.0 GSNR=   2.0 | k: radon    -40.7dB (med 1.3e-03, hit3 100%) full    -68.7dB (med 2.4e-04, hit3 100%) crlb   -192.5 | f0: radon    -46.2 (med 1.1e-04) full    -82.8 crlb   -140.5
+   a=1.0 GSNR=   4.0 | k: radon    -41.2dB (med 1.3e-03, hit3 100%) full    -70.1dB (med 2.0e-04, hit3 100%) crlb   -194.5 | f0: radon    -46.7 (med 9.7e-05) full    -84.4 crlb   -142.5
+   a=1.0 GSNR=   6.0 | k: radon    -42.8dB (med 1.2e-03, hit3 100%) full    -71.5dB (med 1.7e-04, hit3 100%) crlb   -196.5 | f0: radon    -48.4 (med 7.8e-05) full    -86.1 crlb   -144.5
+   a=1.0 GSNR=   8.0 | k: radon    -43.9dB (med 1.2e-03, hit3 100%) full    -72.7dB (med 1.5e-04, hit3 100%) crlb   -198.5 | f0: radon    -49.5 (med 6.6e-05) full    -87.7 crlb   -146.5
+  alpha=1.5: 1650 runs in 940.1 s
+   a=1.5 GSNR= -12.0 | k: radon      4.9dB (med 2.2e-02, hit3  59%) full    -48.2dB (med 7.3e-04, hit3 100%) crlb   -177.8 | f0: radon      1.4 (med 1.0e-02) full    -53.9 crlb   -125.8
+   a=1.5 GSNR= -10.0 | k: radon     -5.5dB (med 4.0e-03, hit3  96%) full    -61.0dB (med 5.4e-04, hit3 100%) crlb   -179.8 | f0: radon     -9.9 (med 4.5e-04) full    -73.9 crlb   -127.8
+   a=1.5 GSNR=  -8.0 | k: radon    -39.9dB (med 1.7e-03, hit3  99%) full    -62.9dB (med 4.5e-04, hit3 100%) crlb   -181.8 | f0: radon    -46.0 (med 1.8e-04) full    -76.0 crlb   -129.8
+   a=1.5 GSNR=  -6.0 | k: radon    -40.7dB (med 1.5e-03, hit3 100%) full    -64.7dB (med 3.7e-04, hit3 100%) crlb   -183.8 | f0: radon    -46.3 (med 1.3e-04) full    -77.9 crlb   -131.8
+   a=1.5 GSNR=  -4.0 | k: radon    -40.6dB (med 1.4e-03, hit3 100%) full    -66.5dB (med 3.0e-04, hit3 100%) crlb   -185.8 | f0: radon    -46.1 (med 1.1e-04) full    -79.8 crlb   -133.8
+   a=1.5 GSNR=  -2.0 | k: radon    -40.7dB (med 1.3e-03, hit3 100%) full    -68.2dB (med 2.6e-04, hit3 100%) crlb   -187.8 | f0: radon    -46.3 (med 8.3e-05) full    -81.6 crlb   -135.8
+   a=1.5 GSNR=   0.0 | k: radon    -41.1dB (med 1.2e-03, hit3 100%) full    -69.9dB (med 2.1e-04, hit3 100%) crlb   -189.8 | f0: radon    -46.6 (med 7.5e-05) full    -83.6 crlb   -137.8
+   a=1.5 GSNR=   2.0 | k: radon    -42.2dB (med 1.2e-03, hit3 100%) full    -71.6dB (med 1.7e-04, hit3 100%) crlb   -191.8 | f0: radon    -47.7 (med 5.7e-05) full    -85.4 crlb   -139.8
+   a=1.5 GSNR=   4.0 | k: radon    -43.1dB (med 1.2e-03, hit3 100%) full    -73.3dB (med 1.4e-04, hit3 100%) crlb   -193.8 | f0: radon    -48.6 (med 5.2e-05) full    -87.3 crlb   -141.8
+   a=1.5 GSNR=   6.0 | k: radon    -45.8dB (med 1.2e-03, hit3 100%) full    -74.9dB (med 1.2e-04, hit3 100%) crlb   -195.8 | f0: radon    -51.4 (med 4.1e-05) full    -89.1 crlb   -143.8
+   a=1.5 GSNR=   8.0 | k: radon    -49.8dB (med 1.2e-03, hit3 100%) full    -76.4dB (med 1.0e-04, hit3 100%) crlb   -197.8 | f0: radon    -55.8 (med 3.2e-05) full    -91.0 crlb   -145.8
+  alpha=2.0: 1650 runs in 893.7 s
+   a=2.0 GSNR= -12.0 | k: radon     -0.5dB (med 1.3e-02, hit3  81%) full    -55.1dB (med 6.1e-04, hit3 100%) crlb   -178.5 | f0: radon     -3.1 (med 8.4e-03) full    -61.5 crlb   -126.5
+   a=2.0 GSNR= -10.0 | k: radon     -7.9dB (med 2.9e-03, hit3  98%) full    -55.6dB (med 5.0e-04, hit3 100%) crlb   -180.5 | f0: radon    -11.7 (med 2.1e-04) full    -61.7 crlb   -128.5
+   a=2.0 GSNR=  -8.0 | k: radon    -42.0dB (med 1.7e-03, hit3 100%) full    -64.2dB (med 3.8e-04, hit3 100%) crlb   -182.5 | f0: radon    -47.5 (med 1.3e-04) full    -76.6 crlb   -130.5
+   a=2.0 GSNR=  -6.0 | k: radon    -41.8dB (med 1.6e-03, hit3 100%) full    -66.1dB (med 3.1e-04, hit3 100%) crlb   -184.5 | f0: radon    -47.3 (med 1.3e-04) full    -78.8 crlb   -132.5
+   a=2.0 GSNR=  -4.0 | k: radon    -42.0dB (med 1.5e-03, hit3 100%) full    -67.9dB (med 2.5e-04, hit3 100%) crlb   -186.5 | f0: radon    -47.5 (med 1.1e-04) full    -80.9 crlb   -134.5
+   a=2.0 GSNR=  -2.0 | k: radon    -42.9dB (med 1.5e-03, hit3 100%) full    -69.7dB (med 2.0e-04, hit3 100%) crlb   -188.5 | f0: radon    -48.4 (med 8.7e-05) full    -83.0 crlb   -136.5
+   a=2.0 GSNR=   0.0 | k: radon    -43.7dB (med 1.4e-03, hit3 100%) full    -71.5dB (med 1.6e-04, hit3 100%) crlb   -190.5 | f0: radon    -49.3 (med 6.4e-05) full    -85.1 crlb   -138.5
+   a=2.0 GSNR=   2.0 | k: radon    -45.3dB (med 1.3e-03, hit3 100%) full    -73.2dB (med 1.3e-04, hit3 100%) crlb   -192.5 | f0: radon    -51.0 (med 5.2e-05) full    -87.2 crlb   -140.5
+   a=2.0 GSNR=   4.0 | k: radon    -47.5dB (med 1.3e-03, hit3 100%) full    -75.0dB (med 1.1e-04, hit3 100%) crlb   -194.5 | f0: radon    -53.3 (med 4.2e-05) full    -89.3 crlb   -142.5
+   a=2.0 GSNR=   6.0 | k: radon    -52.0dB (med 1.3e-03, hit3 100%) full    -76.7dB (med 9.0e-05, hit3 100%) crlb   -196.5 | f0: radon    -58.8 (med 3.0e-05) full    -91.7 crlb   -144.5
+   a=2.0 GSNR=   8.0 | k: radon    -58.0dB (med 1.2e-03, hit3 100%) full    -78.4dB (med 7.3e-05, hit3 100%) crlb   -198.5 | f0: radon    -89.7 (med 2.4e-05) full    -94.4 crlb   -146.5
+saved: C:\Seafile\项目资料库\10.05 researchspace\gelct_lfm\demos\..\results\nrmse.png  total 2810.5 s
