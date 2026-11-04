@@ -1,8 +1,7 @@
 # Reproducibility package
 
-**Paper.** *Multicomponent and Competing-Clutter Mismatch in the SαS CRLB for LFM*
-Guocai Li, College of Electrical Engineering, Sichuan University.
-Target journal: Signal Processing (Elsevier).
+*Multicomponent and Competing-Clutter Mismatch in the SαS CRLB for LFM*
+
 
 This package contains the code, the JSON results behind every table and figure,
 the figure scripts, and the LaTeX sources. **The raw radar data are not
@@ -141,5 +140,4 @@ their inputs are cached in `T2exp/_verify/` and `T2exp/_exp4/`.
 ## 6. License and contact
 
 Code is provided for review and reproducibility. No license is granted for
-redistribution of the MTDSP data; cite the dataset paper above. Contact:
-Guocai Li, liguocai@scu.edu.cn (ORCID 0000-0002-3191-146X).
+redistribution of the MTDSP data; cite the dataset paper above.
